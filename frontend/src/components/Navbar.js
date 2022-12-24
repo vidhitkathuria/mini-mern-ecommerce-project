@@ -18,6 +18,9 @@ const Navbar = ({ click }) => {
 
       <ul className="navbar__links">
         <li>
+          <Link to="/login">Login</Link>
+        </li>
+        <li>
           <Link to="/cart" className="cart__link">
             <i className="fas fa-shopping-cart"></i>
             <span>
